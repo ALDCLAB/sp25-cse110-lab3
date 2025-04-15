@@ -82,7 +82,7 @@
           Today, we did placeholder
           <br>
           <br>
-          
+
           <span>Resolved: placeholder</span>
         </p>
       </section>
@@ -144,7 +144,8 @@
               <br>
               <br>
               
-              <label for="rating">How satisifed are you with the website?</label>
+              <label for="rating">How satisifed are you with the website? <br>
+                1 being bad and 5 being the best meeting minutes you ever seen.</label>
               <select name="rating" id="rating">
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -155,29 +156,30 @@
               <br>
               <br>
               
-              <label for="arrive">How do you get to work?</label>
-              <br>
+              <p>How do you travel each day?</p>
               <input type="checkbox" id="walk" name="walk" value="Walking">
               <label for="walk">Walking</label>
               <br>
               <input type="checkbox" id="bike" name="bike" value="Biking">
               <label for="bike"> Biking</label>
               <br>
+              <input type="checkbox" id="public" name="public" value="Public">
+              <label for="public"> Public Transportation</label>
+              <br>
               <input type="checkbox" id="car" name="car" value="Driving">
               <label for="car"> Driving</label>
               <br>
               <br>
               
-              <label for="hours">How many hours do you spend on the phone each day?</label>
+              <p>How much do you commute each day?</p>
+              <input type="radio" id="1hour" name="commute" value="0-1">
+              <label for="1hour">0-1</label>
               <br>
-              <input type="radio" id="2hour" name="phone" value="0-2">
-              <label for="2hour">0-2</label>
+              <input type="radio" id="2hour" name="commute" value="1-2">
+              <label for="2hour">1-2</label>
               <br>
-              <input type="radio" id="4hour" name="phone" value="3-4">
-              <label for="4hour">3-4</label>
-              <br>
-              <input type="radio" id="6hour" name="phone" value="5-6">
-              <label for="6hour">5-6</label>
+              <input type="radio" id="3hour" name="commute" value="2-3">
+              <label for="3hour">2-3</label>
               <br>
               <br>
               <textarea rows="3" placeholder="Any Feedback?"></textarea>
