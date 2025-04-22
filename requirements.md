@@ -2,24 +2,24 @@ Standup Template
 - [X] Standup
 
 Quick Formatting
-- [] One Inline CSS
+- [X] One Inline CSS
 - [X] One Style CSS 
 
 General CSS Topics
-- [] Color RGB
-- [] Color HEX
-- [] Color HSL
+- [X] Color RGB
+- [X] Color HEX
+- [X] Color HSL
 - [X] Color Name
-- [] Color Wide Gamut Colorspace
-- [] Color Wide Gamut Color Mix
+- [x] Color Wide Gamut Colorspace
+- [X] Color Wide Gamut Color Mix
 
 - [X] CSS Fallback Variable
 
 - [X] Background Color
 
-- [] 3 Unique Relative Units
+- [] 3 Unique Relative Units - %,
 
-- [] 3 Unique Absolute Units
+- [] 3 Unique Absolute Units - px,
 
 - [] Box Model Margin Long
 - [] Box Model Margin Short
@@ -34,9 +34,9 @@ General CSS Topics
 - [] Box Model Border Long
 - [] Box Model Border Short
 
-- [] Text Color
-- [] Text Decoration
-- [] Text Align
+- [X] Text Color
+- [X] Text Decoration
+- [X] Text Align
 
 - [] Display None, Block, Inline Block, Inline
 - [] Display None, Block, Inline Block, Inline (include atleast two)
@@ -61,17 +61,17 @@ General CSS Topics
 
 CSS Selectors
 
-- [] Class Selector (.class) 
+- [X] Class Selector (.class) 
 
-- [] ID Selector (#id)
+- [X] ID Selector (#id)
 
-- [] Universal Selector (*)
+- [X] Universal Selector (*)
 
 - [X] Element Selector (element)
 
-- [] Attribute Selector (EX, [attribute=foo])
+- [X] Attribute Selector (EX, [attribute=foo])
 
-- [] Selector List (element, element) (Select multiple elements)
+- [X] Selector List (element, element) (Select multiple elements)
 
 - [] Descendant Combinator (element element)
 

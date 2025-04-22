@@ -1,9 +1,35 @@
 
-/*  Element Selector, Color Name, and Background  */
+/* Element Selector, Color Name, and Background */
 body { 
     background: aliceblue; 
-  }
+}
 
+/* Color RGB */
+h1 {
+    background-color: rgb(204, 229, 255);
+}
+
+/* Universal Selector and Class Selector, Color HSL and Relative Unit % */
+*.red {
+    color: hsl(0, 78%, 69%)
+}
+
+/* Attribute Selector and Colorspace */
+h3[meeting] {
+    padding: 15px;
+    border: 4px solid black;
+    background-color: color(from blue srgb r g b / 0.4);
+}
+
+/* Selector List and Color Mix */
+span, h2 {
+    color: color-mix(in oklab, #6a5acd 75%, pink);
+}
+
+/* ID selector and Text Decoration*/
+#medias {
+    text-decoration: underline overline;
+}
 
 
 
