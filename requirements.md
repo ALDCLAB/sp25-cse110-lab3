@@ -17,45 +17,43 @@ General CSS Topics
 
 - [X] Background Color
 
-- [] 3 Unique Relative Units - %,
+- [X] 3 Unique Relative Units - %,
 
-- [] 3 Unique Absolute Units - px,
+- [X] 3 Unique Absolute Units - px, in, and cm
 
-- [] Box Model Margin Long
-- [] Box Model Margin Short
+- [X] Box Model Margin Long
+- [X] Box Model Margin Short
 
-- [] Box Model Padding Long
-- [] Box Model Padding Short
+- [X] Box Model Padding Long
+- [X] Box Model Padding Short
 
-- [] Box Model Border Style
-- [] Box Model Border Color
-- [] Box Model Border Width
-- [] Box Model Border Radius
-- [] Box Model Border Long
-- [] Box Model Border Short
+- [X] Box Model Border Style
+- [X] Box Model Border Color
+- [X] Box Model Border Width
+- [X] Box Model Border Radius
 
 - [X] Text Color
 - [X] Text Decoration
 - [X] Text Align
 
-- [] Display None, Block, Inline Block, Inline
-- [] Display None, Block, Inline Block, Inline (include atleast two)
+- [ ] Display None, Block, Inline Block, Inline
+- [ ] Display None, Block, Inline Block, Inline (include atleast two)
 
-- [] Sizing Height
-- [] Sizing Width
-- [] Sizing max-width
-- [] Sizing min-width
+- [ ] Sizing Height
+- [ ] Sizing Width
+- [ ] Sizing max-width
+- [ ] Sizing min-width
 
-- [] Position Static, Relative, Fix, Absolute, Sticky
-- [] Position Static, Relative, Fix, Absolute, Sticky (include atleast two)
+- [ ] Position Static, Relative, Fix, Absolute, Sticky
+- [ ] Position Static, Relative, Fix, Absolute, Sticky (include atleast two)
 
-- [] Pseudo-class :hover
-- [] Pseudo-class :active
+- [ ] Pseudo-class :hover
+- [ ] Pseudo-class :active
 
-- [] Layout Flexbox - Must have more than two children within the element that is using flexbox. Must use minimum three of the flexbox related attributes
-- [] Layout Grid - Must have two children within the element that is using the grid. must use a minimum of three of the grid related attributes
+- [ ] Layout Flexbox - Must have more than two children within the element that is using flexbox. Must use minimum three of the flexbox related attributes
+- [ ] Layout Grid - Must have two children within the element that is using the grid. must use a minimum of three of the grid related attributes
 
-- [] Responsiveness - At least one query based on the screen width, Check DevTools
+- [ ] Responsiveness - At least one query based on the screen width, Check DevTools
 
 - [X] Font
 
@@ -73,23 +71,23 @@ CSS Selectors
 
 - [X] Selector List (element, element) (Select multiple elements)
 
-- [] Descendant Combinator (element element)
+- [ ] Descendant Combinator (element element)
 
-- [] Child Combinator (element > element)
+- [ ] Child Combinator (element > element)
 
-- [] General Sibling Combinator (element~element)
+- [ ] General Sibling Combinator (element~element)
 
-- [] Adjacent Sibling Combinator (element + element)
+- [ ] Adjacent Sibling Combinator (element + element)
 
-- [] Combining Two Selectors (element.class)
+- [ ] Combining Two Selectors (element.class)
 
-- [] :has Selector
+- [ ] :has Selector
 
-- [] Nested Selectors
+- [ ] Nested Selectors
 
 CSS Validation
 
-- [] CSS Validation
+- [ ] CSS Validation
 
 
 
