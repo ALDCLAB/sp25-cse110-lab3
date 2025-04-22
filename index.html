@@ -6,7 +6,7 @@
     <link rel="icon" href="materials/favia.png" type="image/png">
     <link rel="stylesheet" href="style.css">
 
-    <!--Font, Internal CSS, and Fallback for Fonts-->
+    <!--Font, Internal CSS, Fallback for Fonts and Absolute Unit px-->
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
     <style>
     body {
@@ -18,11 +18,12 @@
   <body>
     <main>
       <header>
-        <h1><b><span>BrainStorms For The Ages</span></b></h1>
+        <!--Inline CSS, Text Color, Text Align, and Color HEX-->
+        <h1 style = "color:#000000; text-align:center;"><b>BrainStorms For The Ages</b></h1>
         <nav>
           <h2>List of Meetings</h2>
           <ol>
-              <li><h3><a href="#Meeting1">Start of The <i>Appa Venture</i></a></h3></li>
+              <li><h3 meeting><a href="#Meeting1">Start of The <i>Appa Venture</i></a></h3></li>
               <li><h3><a href="#Meeting2">Formation of The Business</a></h3></li>
               <li><h3><a href="#Meeting3">Concerning Issues</a></h3></li>
               <li><h3><a href="#Meeting4">Our Final Version Before Launch</a></h3></li>
@@ -46,7 +47,7 @@
           <p> 
             In this meeting, we have discussed the main core of the business, about how we would sell them and discuss the manufacturing process of it. 
             <br>
-            This meeting has some <em>VERY IMPORTANT information</em>, so <strong>for the members who have missed this meeting, please view the audio/video meetings!!!</strong>
+            This meeting has some <em>VERY IMPORTANT information</em>, so <strong class="red">for the members who have missed this meeting, please view the audio/video meetings!!!</strong>
             <br>
             <br>
             Future topics: When to start, figure out outsource.
@@ -56,7 +57,7 @@
           </p>
           <div>
             <details>
-              <summary>Media, Audio and Video Recordings</summary>
+              <summary id="medias" class="red"><b>Media, Audio and Video Recordings</b></summary>
               <h4>Venn Diagram:</h4>
               <img src="materials/venn.png" 
                  alt="Venn diagram showing overlap" 
