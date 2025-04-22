@@ -4,8 +4,20 @@ body {
     background: aliceblue; 
 }
 
-/* Color RGB */
+/* Color RGB, Long Margin and Padding format, Relative Unit vmax and vmin  */
 h1 {
+    margin-top:25px;
+    margin-bottom:1px;
+    margin-left:1px;
+    margin-right:1px;
+    padding-top: 0.20in;
+    padding-bottom: 0.15in;
+    padding-left: 0.15in;
+    padding-right: 0.15in;
+    border-style:solid;
+    border-width:0.8vmin;
+    border-color:black;
+    border-radius: 2vmax;
     background-color: rgb(204, 229, 255);
 }
 
@@ -14,10 +26,15 @@ h1 {
     color: hsl(0, 78%, 69%)
 }
 
-/* Attribute Selector and Colorspace */
+/* Attribute Selector, Colorspace, Box Model Margin and Padding Short and 3 Unique Absolute Units px, in and cm*/
 h3[meeting] {
-    padding: 15px;
-    border: 4px solid black;
+    text-align: center;
+    margin:1px 1100px 1px 1px;
+    padding: 0.15in 0.381cm 0.15in 0.381cm;
+    border-style:solid;
+    border-width:3px;
+    border-color:black;
+    border-radius:25px;
     background-color: color(from blue srgb r g b / 0.4);
 }
 
