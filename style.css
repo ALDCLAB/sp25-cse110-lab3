@@ -4,8 +4,10 @@ body {
     background: aliceblue; 
 }
 
-/* Color RGB, Long Margin and Padding format, Relative Unit vmax and vmin  */
+/* Height, Width, Color RGB, Long Margin and Padding format, Relative Unit vmax and vmin  */
 h1 {
+    height: 35px;
+    width: 1465px;
     margin-top:25px;
     margin-bottom:1px;
     margin-left:1px;
@@ -21,26 +23,48 @@ h1 {
     background-color: rgb(204, 229, 255);
 }
 
-/* Universal Selector and Class Selector, Color HSL and Relative Unit % */
+/* Universal Selector and Class Selector (Combining Two Selectors, Color HSL and Relative Unit % */
 *.red {
     color: hsl(0, 78%, 69%)
 }
 
-/* Attribute Selector, Colorspace, Box Model Margin and Padding Short and 3 Unique Absolute Units px, in and cm*/
-h3[meeting] {
+/* Descendant Combinator and Attribute Selector */
+nav ol[meet] {
+    display:flex;
+}
+
+/* Child Combinator and Attribute Selector, Sizing max and min width, Colorspace, Box Model Margin and Padding Short and 3 Unique Absolute Units px, in and cm*/
+li > h3[meeting] {
     text-align: center;
-    margin:1px 1100px 1px 1px;
+    margin:1px 60px 1px 1px;
     padding: 0.15in 0.381cm 0.15in 0.381cm;
     border-style:solid;
     border-width:3px;
     border-color:black;
     border-radius:25px;
-    background-color: color(from blue srgb r g b / 0.4);
+    background-color: color(from hsl(152, 77%, 44%) xyz 0.75 0.6554 1);
+    max-width: 1000px;
+    min-width: 200px;
+}
+
+/* General Sibling Combinator*/
+br ~ span {
+    color:blueviolet;
 }
 
 /* Selector List and Color Mix */
 span, h2 {
-    color: color-mix(in oklab, #6a5acd 75%, pink);
+    color: color-mix(#6a5acd 75%, pink);
+}
+
+/* Adjacent Sibling Combinator */
+h2 + h3 {
+    color:darkorchid;
+}
+
+/* :has Selector */
+h2:has(+h3) {
+    color:navy;
 }
 
 /* ID selector and Text Decoration*/
@@ -48,7 +72,10 @@ span, h2 {
     text-decoration: underline overline;
 }
 
-
+/* Another display */
+h4 {
+    display:grid
+}
 
 
 
