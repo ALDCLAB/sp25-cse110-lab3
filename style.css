@@ -1,4 +1,8 @@
 
+/* Universal Selector */
+* {
+    text-align: center;
+}
 /* Element Selector, Color Name, and Background */
 body { 
     background: aliceblue; 
@@ -7,8 +11,8 @@ body {
 /* Height, Width, Color RGB, Long Margin and Padding format, Border options,
  Position static and Relative Unit vmax and vmin  */
 h1 {
-    height: 35px;
-    width: 440px;
+    height:auto;
+    width:auto;
     margin-top:25px;
     margin-bottom:1px;
     margin-left:1px;
@@ -21,7 +25,6 @@ h1 {
     border-width:0.8vmin;
     border-color:black;
     border-radius: 2vmax;
-    display:flex;
     background-color: rgb(204, 229, 255);
     position:static;
 }
@@ -43,7 +46,6 @@ nav ol[meet] {
 /* Child Combinator and Attribute Selector, Sizing max and min width, Colorspace, Box Model Margin and Padding Short,
 Pseudo class hover and active, display block and 3 Unique Absolute Units px, in and cm*/
 li > h3[meeting] {
-    text-align: center;
     margin:1px 60px 1px 1px;
     padding: 0.15in 0.381cm 0.15in 0.381cm;
     border-style:solid;
@@ -90,7 +92,7 @@ h2:has(+h3) {
 #medias {
     text-decoration: underline overline;
     position:relative;
-    left:70px;
+    bottom:5px;
 }
 
 /* Another display */
@@ -102,9 +104,8 @@ h4 {
 ul {
     display:grid;
     grid-template-columns: 100px 100px 100px 100px;
-    justify-self:start;
-    align-self:start;
+    justify-self:center;
+    align-self:center;
+    text-align: center;
 }
-
-
 
