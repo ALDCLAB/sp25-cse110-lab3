@@ -10,8 +10,8 @@ body {
 /* Height, Width, Color RGB, Long Margin and Padding format, Border options,
  Position static and Relative Unit vmax and vmin  */
 h1 {
-    height: 35px;
-    width: 440px;
+    height:auto;
+    width:auto;
     margin-top:25px;
     margin-bottom:1px;
     margin-left:1px;
