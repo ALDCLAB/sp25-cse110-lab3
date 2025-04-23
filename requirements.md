@@ -50,10 +50,10 @@ General CSS Topics
 - [X] Pseudo-class :hover
 - [X] Pseudo-class :active
 
-- [ ] Layout Flexbox - Must have more than two children within the element that is using flexbox. Must use minimum three of the flexbox related attributes
-- [ ] Layout Grid - Must have two children within the element that is using the grid. must use a minimum of three of the grid related attributes
+- [X] Layout Flexbox - Must have more than two children within the element that is using flexbox. Must use minimum three of the flexbox related attributes
+- [X] Layout Grid - Must have two children within the element that is using the grid. must use a minimum of three of the grid related attributes
 
-- [ ] Responsiveness - At least one query based on the screen width, Check DevTools
+- [X] Responsiveness - At least one query based on the screen width, Check DevTools
 
 - [X] Font
 

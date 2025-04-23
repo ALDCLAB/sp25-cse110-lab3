@@ -4,10 +4,11 @@ body {
     background: aliceblue; 
 }
 
-/* Height, Width, Color RGB, Long Margin and Padding format, Relative Unit vmax and vmin  */
+/* Height, Width, Color RGB, Long Margin and Padding format, Border options,
+ Position static and Relative Unit vmax and vmin  */
 h1 {
     height: 35px;
-    width: 1465px;
+    width: 440px;
     margin-top:25px;
     margin-bottom:1px;
     margin-left:1px;
@@ -20,6 +21,7 @@ h1 {
     border-width:0.8vmin;
     border-color:black;
     border-radius: 2vmax;
+    display:flex;
     background-color: rgb(204, 229, 255);
     position:static;
 }
@@ -29,12 +31,17 @@ h1 {
     color: hsl(0, 78%, 69%)
 }
 
-/* Descendant Combinator and Attribute Selector */
+/* Descendant Combinator, Attribute Selector, and Layout Flexbox */
 nav ol[meet] {
     display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    
 }
 
-/* Child Combinator and Attribute Selector, Sizing max and min width, Colorspace, Box Model Margin and Padding Short and 3 Unique Absolute Units px, in and cm*/
+/* Child Combinator and Attribute Selector, Sizing max and min width, Colorspace, Box Model Margin and Padding Short,
+Pseudo class hover and active, display block and 3 Unique Absolute Units px, in and cm*/
 li > h3[meeting] {
     text-align: center;
     margin:1px 60px 1px 1px;
@@ -76,11 +83,11 @@ h2:has(+h3) {
     color:navy;
 }
 
-/* ID selector and Text Decoration*/
+/* ID selector, Text Decoration, and position relative*/
 #medias {
     text-decoration: underline overline;
     position:relative;
-    left:560px;
+    left:70px;
 }
 
 /* Another display */
@@ -88,6 +95,13 @@ h4 {
     display:none;
 }
 
+/* Layout Grid */
+ul {
+    display:grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    justify-self:start;
+    align-self:start;
+}
 
 
 
