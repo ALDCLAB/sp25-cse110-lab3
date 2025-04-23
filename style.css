@@ -21,6 +21,7 @@ h1 {
     border-color:black;
     border-radius: 2vmax;
     background-color: rgb(204, 229, 255);
+    position:static;
 }
 
 /* Universal Selector and Class Selector (Combining Two Selectors, Color HSL and Relative Unit % */
@@ -45,6 +46,14 @@ li > h3[meeting] {
     background-color: color(from hsl(152, 77%, 44%) xyz 0.75 0.6554 1);
     max-width: 1000px;
     min-width: 200px;
+
+    display:block;
+    & :hover {
+        background-color:cornflowerblue;
+    }
+    & :active {
+        background-color:rgb(247, 236, 90);
+    }
 }
 
 /* General Sibling Combinator*/
@@ -70,11 +79,13 @@ h2:has(+h3) {
 /* ID selector and Text Decoration*/
 #medias {
     text-decoration: underline overline;
+    position:relative;
+    left:560px;
 }
 
 /* Another display */
 h4 {
-    display:grid
+    display:none;
 }
 
 

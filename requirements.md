@@ -44,11 +44,11 @@ General CSS Topics
 - [X] Sizing max-width
 - [X] Sizing min-width
 
-- [ ] Position Static, Relative, Fix, Absolute, Sticky
-- [ ] Position Static, Relative, Fix, Absolute, Sticky (include atleast two)
+- [X] Position Static, Relative, Fix, Absolute, Sticky
+- [X] Position Static, Relative, Fix, Absolute, Sticky (include atleast two)
 
-- [ ] Pseudo-class :hover
-- [ ] Pseudo-class :active
+- [X] Pseudo-class :hover
+- [X] Pseudo-class :active
 
 - [ ] Layout Flexbox - Must have more than two children within the element that is using flexbox. Must use minimum three of the flexbox related attributes
 - [ ] Layout Grid - Must have two children within the element that is using the grid. must use a minimum of three of the grid related attributes
@@ -83,7 +83,7 @@ CSS Selectors
 
 - [X] :has Selector
 
-- [ ] Nested Selectors
+- [X] Nested Selectors
 
 CSS Validation
 
