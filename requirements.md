@@ -36,13 +36,13 @@ General CSS Topics
 - [X] Text Decoration
 - [X] Text Align
 
-- [ ] Display None, Block, Inline Block, Inline
-- [ ] Display None, Block, Inline Block, Inline (include atleast two)
+- [X] Display None, Block, Inline Block, Inline
+- [X] Display None, Block, Inline Block, Inline (include atleast two)
 
-- [ ] Sizing Height
-- [ ] Sizing Width
-- [ ] Sizing max-width
-- [ ] Sizing min-width
+- [X] Sizing Height
+- [X] Sizing Width
+- [X] Sizing max-width
+- [X] Sizing min-width
 
 - [ ] Position Static, Relative, Fix, Absolute, Sticky
 - [ ] Position Static, Relative, Fix, Absolute, Sticky (include atleast two)
@@ -71,17 +71,17 @@ CSS Selectors
 
 - [X] Selector List (element, element) (Select multiple elements)
 
-- [ ] Descendant Combinator (element element)
+- [X] Descendant Combinator (element element)
 
-- [ ] Child Combinator (element > element)
+- [X] Child Combinator (element > element)
 
-- [ ] General Sibling Combinator (element~element)
+- [X] General Sibling Combinator (element~element)
 
-- [ ] Adjacent Sibling Combinator (element + element)
+- [X] Adjacent Sibling Combinator (element + element)
 
-- [ ] Combining Two Selectors (element.class)
+- [X] Combining Two Selectors (element.class)
 
-- [ ] :has Selector
+- [X] :has Selector
 
 - [ ] Nested Selectors
 
