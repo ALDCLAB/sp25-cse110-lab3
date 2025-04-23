@@ -55,12 +55,15 @@ li > h3[meeting] {
     min-width: 200px;
 
     display:block;
-    & :hover {
-        background-color:cornflowerblue;
-    }
-    & :active {
-        background-color:rgb(247, 236, 90);
-    }
+    
+}
+
+li > h3[meeting]:hover {
+    background-color: cornflowerblue;
+}
+
+li > h3[meeting]:active {
+    background-color: rgb(247, 236, 90);
 }
 
 /* General Sibling Combinator*/
